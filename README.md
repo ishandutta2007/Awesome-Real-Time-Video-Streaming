@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-Video-Streaming/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Real-Time-Video-Streaming?style=flat-square" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-Video-Streaming/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Real-Time-Video-Streaming?style=flat-square" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Real-Time-Video-Streaming/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Real-Time-Video-Streaming?style=flat-square" alt="GitHub forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Real-Time-Video-Streaming/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -58,11 +58,11 @@ This repository tracks notable **commercial real-time video platforms** and **op
 
 ## 🔓 Open-Source GitHub Projects
 
-Below is a comprehensive list of premier open-source video streaming projects sorted by **GitHub Star Count** (descending).
+Below is a comprehensive list of premier open-source video streaming projects sorted by **GitHub Stars_Count** (descending).
 
 ### 🛰️ Live Streaming & Media Servers
 
-| Project & Repo Link 📦 | GitHub Stars ⭐ | License 📜 | Description 📝 |
+| Project & Repo Link 📦 | GitHub_Stars ⭐ | License 📜 | Description 📝 |
 | :--- | :--- | :--- | :--- |
 | **[OBS Studio](https://github.com/obsproject/obs-studio)** | [<img src="https://img.shields.io/github/stars/obsproject/obs-studio?style=social&color=white" alt="OBS Studio Stars"/>](https://github.com/obsproject/obs-studio/stargazers) | GPL-2.0 | High-performance video recording and live streaming software. |
 | **[SRS (Simple Realtime Server)](https://github.com/ossrs/srs)** | [<img src="https://img.shields.io/github/stars/ossrs/srs?style=social&color=white" alt="SRS Stars"/>](https://github.com/ossrs/srs/stargazers) | MIT | Industrial-grade live streaming server supporting RTMP, HLS, SRT, WebRTC, and DASH. |
@@ -79,7 +79,7 @@ Below is a comprehensive list of premier open-source video streaming projects so
 
 ### ⚡ WebRTC & Real-Time Communication
 
-| Project & Repo Link 📦 | GitHub Stars ⭐ | License 📜 | Description 📝 |
+| Project & Repo Link 📦 | GitHub_Stars ⭐ | License 📜 | Description 📝 |
 | :--- | :--- | :--- | :--- |
 | **[Jitsi Meet](https://github.com/jitsi/jitsi-meet)** | [<img src="https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social&color=white" alt="Jitsi Meet Stars"/>](https://github.com/jitsi/jitsi-meet/stargazers) | Apache-2.0 | Secure, simple and scalable video conferencing application. |
 | **[Pion WebRTC](https://github.com/pion/webrtc)** | [<img src="https://img.shields.io/github/stars/pion/webrtc?style=social&color=white" alt="Pion WebRTC Stars"/>](https://github.com/pion/webrtc/stargazers) | MIT | Pure Go implementation of WebRTC API without external Cgo bindings. |
@@ -93,7 +93,7 @@ Below is a comprehensive list of premier open-source video streaming projects so
 
 ### 🛠️ Media Processing & Transcoding Frameworks
 
-| Project & Repo Link 📦 | GitHub Stars ⭐ | License 📜 | Description 📝 |
+| Project & Repo Link 📦 | GitHub_Stars ⭐ | License 📜 | Description 📝 |
 | :--- | :--- | :--- | :--- |
 | **[FFmpeg](https://github.com/FFmpeg/FFmpeg)** | [<img src="https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=social&color=white" alt="FFmpeg Stars"/>](https://github.com/FFmpeg/FFmpeg/stargazers) | LGPL / GPL | Universal cross-platform solution to record, convert and stream audio/video. |
 | **[GStreamer](https://github.com/GStreamer/gstreamer)** | [<img src="https://img.shields.io/github/stars/GStreamer/gstreamer?style=social&color=white" alt="GStreamer Stars"/>](https://github.com/GStreamer/gstreamer/stargazers) | LGPL | Pipeline-based multimedia framework powering cross-platform audio/video apps. |
@@ -127,7 +127,7 @@ Thank you for being part of the real-time video streaming community! ❤️
 
 1. Fork this repository.
 2. Add or update entries in `README.md` following the standardized layout.
-3. Verify all URLs, GitHub star counters, and license information.
+3. Verify all URLs, GitHub Stars_Counters, and license information.
 4. Submit a Pull Request with a clear description of changes.
 
 ---
