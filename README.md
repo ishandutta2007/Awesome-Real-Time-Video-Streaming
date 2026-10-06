@@ -1,293 +1,145 @@
-# Awesome-Real-Time-Video-Streaming
+# Awesome Real-Time Video Streaming 🎥
 
-## Top Real-Time Video Streaming Ecosystem
+<p label="banner" align="center">
+  <img src="assets/banner.svg" alt="Awesome Real-Time Video Streaming Banner" width="100%">
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-Video-Streaming/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Real-Time-Video-Streaming?style=flat-square" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-Video-Streaming/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Real-Time-Video-Streaming?style=flat-square" alt="GitHub forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-Video-Streaming/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## ⚡ Top Real-Time Video Streaming Ecosystem & WebRTC Media Infrastructure
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Live Streaming, WebRTC Delivery & Self-Hosted Media Servers*  
+> **A curated collection of developer-first SaaS platforms, self-hosted WebRTC media servers, low-latency HLS/SRT engines, and multimedia frameworks.** 🚀
 
 **Last updated: October 2026**
 
-
-
-This repository tracks notable **commercial real-time video platforms** and **open-source projects** that ingest, transcode, and deliver live video with low latency — from sub-second WebRTC to scalable HLS/DASH streaming for broadcasts.
-
-
-
-**Examples** include Amazon Kinesis Video Streams, Cloudflare Stream, Mux Video, Wowza Cloud, Agora.io, Twilio Video, Ant Media Server, Red5 Pro, Livepeer, and Bambuser (the category leaders).
-
-
-
-**Open-source emphasis**: Real-time video is one of the strongest open-source domains. **SRS**, **MediaMTX**, **Ant Media Server**, **Janus**, **Jitsi**, **LiveKit**, and **OvenMediaEngine** collectively power sub-second live streaming and WebRTC at scale. **Owncast** delivers self-hosted broadcasting, while **ffmpeg** and **GStreamer** handle media processing. **Nginx-RTMP** and **Restreamer** provide simple streaming setups. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Amazon Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/)**  
-
-  **AWS's managed video streaming service** — ingest, store, and process video for analytics and ML . **Best for AWS-native video applications** .
-
-
-
-- **[Cloudflare Stream](https://www.cloudflare.com/products/stream/)**  
-
-  **Cloudflare's video platform** — upload, store, and deliver video with global CDN . **Best for simple video delivery** .
-
-
-
-- **[Mux Video](https://mux.com/)**  
-
-  **API-first video platform** — ingest, transcode, and deliver video with analytics . **Best for developer-friendly video** .
-
-
-
-- **[Wowza Cloud](https://www.wowza.com/)**  
-
-  **Enterprise live streaming platform** — low-latency streaming with adaptive bitrate . **Best for broadcast-grade streaming** .
-
-
-
-- **[Agora.io](https://www.agora.io/)**  
-
-  **Real-time engagement platform** — voice, video, and interactive streaming . **Best for interactive live streaming** .
-
-
-
-- **[Twilio Video](https://www.twilio.com/video)**  
-
-  **Programmable video platform** — WebRTC-based video for applications . **Best for Twilio ecosystem users** .
-
-
-
-- **[Ant Media Server](https://antmedia.io/)**  
-
-  **Ultra-low latency streaming** — see Open-Source section for the community edition.
-
-
-
-- **[Red5 Pro](https://www.red5.net/)**  
-
-  **Real-time streaming platform** — sub-second latency for interactive applications . **Best for interactive streaming** .
-
-
-
-- **[Livepeer](https://livepeer.org/)**  
-
-  **Decentralized video streaming** — open-source protocol with managed cloud . **Best for decentralized video** .
-
-
-
-- **[Bambuser](https://bambuser.com/)**  
-
-  **Live video shopping platform** — interactive streaming for e-commerce . **Best for live commerce** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Live Streaming Servers
-
-
-
-- **[SRS (Simple Realtime Server)](https://github.com/ossrs/srs)**  
-
-  **The leading open-source live streaming server**, MIT licensed with **25,000+ GitHub stars** . **Supports RTMP, HLS, SRT, WebRTC, and DASH** . **Scalable to millions of viewers** . **The de facto open-source Wowza alternative** . **Best for production live streaming** .
-
-
-
-- **[MediaMTX](https://github.com/bluenviron/mediamtx)**  
-
-  **Zero-dependency real-time media server**, MIT licensed with **10,000+ GitHub stars** . **Supports SRT, WebRTC, RTSP, RTMP, HLS, and LL-HLS** . **Single binary with no dependencies** . **The simplest path to low-latency streaming** . **Best for edge and IoT streaming** .
-
-
-
-- **[Ant Media Server](https://github.com/ant-media/Ant-Media-Server)**  
-
-  **Ultra-low latency streaming server**, Apache-2.0 licensed with **4,000+ GitHub stars** . **Sub-second latency with WebRTC** . **Adaptive bitrate, recording, and scaling** . **Community Edition free**; Enterprise for advanced features . **Best for ultra-low latency streaming** .
-
-
-
-- **[OvenMediaEngine](https://github.com/AirenSoft/OvenMediaEngine)**  
-
-  **Sub-second latency streaming server**, AGPL-3.0 licensed with **3,000+ GitHub stars** . **LLHLS, WebRTC, and SRT support** . **Best for ultra-low latency** .
-
-
-
-- **[Nginx-RTMP](https://github.com/arut/nginx-rtmp-module)**  
-
-  **RTMP streaming module for Nginx**, BSD-2-Clause licensed . **Simple RTMP streaming with HLS/DASH output** . **Best for simple RTMP streaming** .
-
-
-
-- **[Restreamer](https://github.com/datarhei/restreamer)**  
-
-  **Self-hosted live streaming**, Apache-2.0 licensed . **Web UI for streaming to multiple platforms** . **Best for multi-platform streaming** .
-
-
-
-- **[Owncast](https://github.com/owncast/owncast)**  
-
-  **Self-hosted live streaming and chat**, MIT licensed with **10,000+ GitHub stars** . **Own your live stream** . **Best for independent broadcasters** .
-
-
-
-### WebRTC & Real-Time Communication
-
-
-
-- **[Jitsi Meet](https://github.com/jitsi/jitsi-meet)**  
-
-  **The leading open-source video conferencing platform**, Apache-2.0 licensed with **25,000+ GitHub stars** . **WebRTC-based with scalable SFU** . **Best for video conferencing** .
-
-
-
-- **[LiveKit](https://github.com/livekit/livekit)**  
-
-  **Open-source WebRTC platform**, Apache-2.0 licensed with **10,000+ GitHub stars** . **Scalable SFU architecture** . **SDKs for all platforms** . **Best for building scalable video applications** .
-
-
-
-- **[Janus WebRTC Server](https://github.com/meetecho/janus-gateway)**  
-
-  **General-purpose WebRTC server**, GPL-3.0 licensed . **Plugin architecture for VideoRoom, SIP, and streaming** . **Best for flexible WebRTC** .
-
-
-
-- **[mediasoup](https://github.com/versatica/mediasoup)**  
-
-  **High-performance SFU library**, ISC licensed . **C++ core with Node.js signaling** . **Best for building custom WebRTC applications** .
-
-
-
-- **[Pion WebRTC](https://github.com/pion/webrtc)**  
-
-  **Pure Go WebRTC implementation**, MIT licensed with **13,000+ GitHub stars** . **No Cgo dependencies** . **Best for Go-based WebRTC** .
-
-
-
-### Media Processing & Transcoding
-
-
-
-- **[FFmpeg](https://github.com/FFmpeg/FFmpeg)**  
-
-  **The foundational multimedia framework**, LGPL/GPL licensed . **The engine behind most streaming platforms** . **Best for media processing** .
-
-
-
-- **[GStreamer](https://github.com/GStreamer/gstreamer)**  
-
-  **Pipeline-based multimedia framework**, LGPL licensed . **Modular media processing** . **Best for custom media pipelines** .
-
-
-
-- **[OBS Studio](https://github.com/obsproject/obs-studio)**  
-
-  **The leading open-source streaming software**, GPL-2.0 licensed with **60,000+ GitHub stars** . **Scene composition, encoding, and streaming** . **Best for content creation** .
-
-
-
-- **[Restreamer](https://github.com/datarhei/restreamer)** — Already listed. **Multi-platform streaming** .
-
-
-
-- **[SRS](https://github.com/ossrs/srs)** — Already listed. **Built-in transcoding** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Kurento** — WebRTC media server .
-
-- **Janus** — General-purpose WebRTC .
-
-- **FreeSWITCH** — Telephony with video .
-
-- **Asterisk** — PBX with video .
-
-- **Wowza Streaming Engine** — Commercial with free trial .
-
-- **Red5** — Open-source Flash/RTMP server .
-
-- **Flussonic** — Commercial streaming server .
-
-- **Nimble Streamer** — Lightweight streaming server .
-
-- **Unreal Media Server** — Low-latency streaming .
-
-- **Shaka Packager** — DASH/HLS packaging .
-
-
-
-**Frameworks for building custom real-time video solutions**: Combine **SRS** or **MediaMTX** for production live streaming with RTMP, SRT, and WebRTC . Use **Ant Media Server** or **OvenMediaEngine** for ultra-low latency sub-second streaming . Deploy **LiveKit** or **Jitsi** for WebRTC conferencing . Choose **Owncast** for self-hosted broadcasting . Integrate **FFmpeg** and **GStreamer** for media processing . Use **OBS Studio** for content creation . Note that true managed real-time video with global CDN, automatic scaling, and vendor-supported SLAs (Cloudflare Stream, Mux, Wowza) remains primarily commercial territory; open-source stacks provide strong streaming servers, WebRTC, and media processing foundations that require integration for complete video delivery.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Real-time video platforms handle bandwidth-intensive workloads and may process sensitive content. Self-hosted solutions require proper security hardening, bandwidth planning, and compliance with content regulations.
-
-- **Latency vs. scalability trade-offs** — WebRTC delivers sub-second latency but scales to hundreds; HLS/DASH scales to millions but adds 6-30 seconds latency. Choose based on use case .
-
-- **Bandwidth costs scale linearly** — each viewer consumes bandwidth. Self-hosted streaming requires CDN or adequate egress capacity .
-
-- **License considerations**: SRS uses MIT, MediaMTX uses MIT, Ant Media uses Apache-2.0, and OvenMediaEngine uses AGPL-3.0. Verify licensing against your use case before committing .
-
-- The open-source ecosystem provides strong streaming servers, WebRTC, and media processing foundations, but **global CDN, automatic scaling, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+This repository tracks notable **commercial real-time video platforms** and **open-source projects** that ingest, transcode, deliver, and process live video with sub-second latency — ranging from interactive WebRTC conferencing to global broadcast HLS/DASH delivery.
 
 ---
 
+## 📑 Table of Contents
+- [☁️ SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [🛰️ Live Streaming & Media Servers](#️-live-streaming--media-servers)
+  - [⚡ WebRTC & Real-Time Communication](#-webrtc--real-time-communication)
+  - [🛠️ Media Processing & Transcoding Frameworks](#️-media-processing--transcoding-frameworks)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-**Made for streaming engineers, media developers, and organizations seeking video streaming sovereignty.**  
+## ☁️ SaaS / Hosted Platforms
 
-Let's make real-time video streaming more open, transparent, and accessible.
+> **Market Insights & Industry Dynamics**: The global real-time video streaming market is estimated at **~$12.5 Billion (2026)** and is growing rapidly driven by live commerce, low-latency gaming, and interactive WebRTC APIs. The sector is **moderately fragmented**: hyper-scale cloud providers dominate infrastructure delivery, while specialized API platforms compete aggressively on developer experience and sub-second WebRTC delivery.
+
+### 📊 Hosted Platform Comparison Matrix
+
+| Provider 🏢 | Estimated Company Scale (Valuation / Revenue) 📈 | Starting Pricing Tier 💵 | Free Tier / Trial Limits 🆓 | Best For 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/)** 🟠 | **~$2.2 Trillion** *(AWS Parent Market Cap)* | $0.0085 per GB ingested / $0.0085 per GB consumed | No permanent free tier (billed per usage from start) | AWS-native IoT & AI/ML video analytics |
+| **[Cloudflare Stream](https://www.cloudflare.com/products/stream/)** 🟧 | **~$35 Billion** *(Market Cap)* | $5/month (Includes 1,000 mins storage & 5,000 mins stream) | Pro/Business plans include 100 mins storage & 10,000 mins delivery free | Turnkey video delivery via global edge CDN |
+| **[Twilio Video](https://www.twilio.com/video)** 🔴 | **~$11 Billion** *(Market Cap)* | $0.004 per participant / minute | $15 free trial credits upon account registration | WebRTC app integration within Twilio ecosystem |
+| **[Agora.io](https://www.agora.io/)** 🔵 | **~$1.2 Billion** *(Market Cap)* | $0.99 per 1,000 audio/video minutes | **10,000 free minutes** every month | Interactive live video & low-latency engagement |
+| **[Mux Video](https://mux.com/)** 🟩 | **~$1.0 Billion** *(Private Valuation)* | $0.004 per minute encoded + $0.001 per minute delivered | **Free Plan**: 100,000 free delivery mins & 10 video assets stored / mo | Developer-first video streaming API & analytics |
+| **[Wowza Cloud](https://www.wowza.com/)** 🍊 | **~$300 Million** *(Private Revenue/Est. Value)* | $99/month (Pay-As-You-Go Plan) | **30-Day Free Trial** (Includes 5 processing hrs & 10 concurrent viewers) | Broadcast-grade enterprise video streaming |
+| **[Bambuser](https://bambuser.com/)** 🛍️ | **~$150 Million** *(Market Cap)* | ~$490/month (Starter Live Shopping Tier) | **Free Plan**: 250 views/month, 2 user accounts & 10 GB storage | Interactive shoppable live video streams |
+| **[Red5 Pro](https://www.red5.net/)** 🔴 | **~$50 Million** *(Private Est. Value)* | $29.99/month (Developer Plan) | **30-Day Free Trial** for self-hosted or cloud clusters | Interactive sub-second latency streaming at scale |
+| **[Livepeer](https://livepeer.org/)** 🌐 | **~$30 Million** *(LPT Market Cap)* | $0.003 per minute transcoded | **Free Tier**: 1,000 free minutes transcoding upon sign-up | Decentralized open video infrastructure |
+| **[Ant Media Server](https://antmedia.io/)** 🟦 | **~$15 Million** *(Private Est. Value)* | $99/month per instance (Enterprise License) | **14-Day Free Trial** (Enterprise) + Free Community Edition | Ultra-low latency WebRTC self-hosted clusters |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below is a comprehensive list of premier open-source video streaming projects sorted by **GitHub Star Count** (descending).
+
+### 🛰️ Live Streaming & Media Servers
+
+| Project & Repo Link 📦 | GitHub Stars ⭐ | License 📜 | Description 📝 |
+| :--- | :--- | :--- | :--- |
+| **[OBS Studio](https://github.com/obsproject/obs-studio)** | [<img src="https://img.shields.io/github/stars/obsproject/obs-studio?style=social&color=white" alt="OBS Studio Stars"/>](https://github.com/obsproject/obs-studio/stargazers) | GPL-2.0 | High-performance video recording and live streaming software. |
+| **[SRS (Simple Realtime Server)](https://github.com/ossrs/srs)** | [<img src="https://img.shields.io/github/stars/ossrs/srs?style=social&color=white" alt="SRS Stars"/>](https://github.com/ossrs/srs/stargazers) | MIT | Industrial-grade live streaming server supporting RTMP, HLS, SRT, WebRTC, and DASH. |
+| **[MediaMTX](https://github.com/bluenviron/mediamtx)** | [<img src="https://img.shields.io/github/stars/bluenviron/mediamtx?style=social&color=white" alt="MediaMTX Stars"/>](https://github.com/bluenviron/mediamtx/stargazers) | MIT | Zero-dependency real-time media server for RTSP, RTMP, HLS, WebRTC, and SRT. |
+| **[Owncast](https://github.com/owncast/owncast)** | [<img src="https://img.shields.io/github/stars/owncast/owncast?style=social&color=white" alt="Owncast Stars"/>](https://github.com/owncast/owncast/stargazers) | MIT | Independent single-user live video and chat server. |
+| **[Nginx-RTMP](https://github.com/arut/nginx-rtmp-module)** | [<img src="https://img.shields.io/github/stars/arut/nginx-rtmp-module?style=social&color=white" alt="Nginx-RTMP Stars"/>](https://github.com/arut/nginx-rtmp-module/stargazers) | BSD-2-Clause | NGINX-based media module for RTMP live streaming with HLS/DASH outputs. |
+| **[Ant Media Server](https://github.com/ant-media/Ant-Media-Server)** | [<img src="https://img.shields.io/github/stars/ant-media/Ant-Media-Server?style=social&color=white" alt="Ant Media Stars"/>](https://github.com/ant-media/Ant-Media-Server/stargazers) | Apache-2.0 | Scalable sub-second WebRTC media server with auto-scaling. |
+| **[Restreamer](https://github.com/datarhei/restreamer)** | [<img src="https://img.shields.io/github/stars/datarhei/restreamer?style=social&color=white" alt="Restreamer Stars"/>](https://github.com/datarhei/restreamer/stargazers) | Apache-2.0 | Self-hosted live video streaming solution with user-friendly web interface. |
+| **[OvenMediaEngine](https://github.com/AirenSoft/OvenMediaEngine)** | [<img src="https://img.shields.io/github/stars/AirenSoft/OvenMediaEngine?style=social&color=white" alt="OvenMediaEngine Stars"/>](https://github.com/AirenSoft/OvenMediaEngine/stargazers) | AGPL-3.0 | Sub-second low latency streaming server supporting Sub-second LL-HLS and WebRTC. |
+| **[BabelTower / Node-Media-Server](https://github.com/illuspas/Node-Media-Server)** | [<img src="https://img.shields.io/github/stars/illuspas/Node-Media-Server?style=social&color=white" alt="Node Media Server Stars"/>](https://github.com/illuspas/Node-Media-Server/stargazers) | MIT | Node.js implementation of RTMP/HTTP-FLV/WS-FLV media server. |
+| **[ZLM (ZLMediaKit)](https://github.com/ZLMediaKit/ZLMediaKit)** | [<img src="https://img.shields.io/github/stars/ZLMediaKit/ZLMediaKit?style=social&color=white" alt="ZLMediaKit Stars"/>](https://github.com/ZLMediaKit/ZLMediaKit/stargazers) | MIT | High-performance C++11 cross-platform RTSP/RTMP/HLS/HTTP server framework. |
+
+---
+
+### ⚡ WebRTC & Real-Time Communication
+
+| Project & Repo Link 📦 | GitHub Stars ⭐ | License 📜 | Description 📝 |
+| :--- | :--- | :--- | :--- |
+| **[Jitsi Meet](https://github.com/jitsi/jitsi-meet)** | [<img src="https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social&color=white" alt="Jitsi Meet Stars"/>](https://github.com/jitsi/jitsi-meet/stargazers) | Apache-2.0 | Secure, simple and scalable video conferencing application. |
+| **[Pion WebRTC](https://github.com/pion/webrtc)** | [<img src="https://img.shields.io/github/stars/pion/webrtc?style=social&color=white" alt="Pion WebRTC Stars"/>](https://github.com/pion/webrtc/stargazers) | MIT | Pure Go implementation of WebRTC API without external Cgo bindings. |
+| **[LiveKit](https://github.com/livekit/livekit)** | [<img src="https://img.shields.io/github/stars/livekit/livekit?style=social&color=white" alt="LiveKit Stars"/>](https://github.com/livekit/livekit/stargazers) | Apache-2.0 | Open-source WebRTC infrastructure built for real-time video, audio, and AI agents. |
+| **[Janus WebRTC Server](https://github.com/meetecho/janus-gateway)** | [<img src="https://img.shields.io/github/stars/meetecho/janus-gateway?style=social&color=white" alt="Janus Gateway Stars"/>](https://github.com/meetecho/janus-gateway/stargazers) | GPL-3.0 | General-purpose WebRTC Gateway with plugin architecture. |
+| **[mediasoup](https://github.com/versatica/mediasoup)** | [<img src="https://img.shields.io/github/stars/versatica/mediasoup?style=social&color=white" alt="mediasoup Stars"/>](https://github.com/versatica/mediasoup/stargazers) | ISC | Cutting-edge WebRTC SFU library for Node.js and Rust. |
+| **[Galene](https://github.com/jech/galene)** | [<img src="https://img.shields.io/github/stars/jech/galene?style=social&color=white" alt="Galene Stars"/>](https://github.com/jech/galene/stargazers) | MIT | Videoconferencing server designed for lectures and large online events. |
+| **[Kurento](https://github.com/Kurento/kurento)** | [<img src="https://img.shields.io/github/stars/Kurento/kurento?style=social&color=white" alt="Kurento Stars"/>](https://github.com/Kurento/kurento/stargazers) | Apache-2.0 | WebRTC media server framework for advanced real-time video processing. |
+
+---
+
+### 🛠️ Media Processing & Transcoding Frameworks
+
+| Project & Repo Link 📦 | GitHub Stars ⭐ | License 📜 | Description 📝 |
+| :--- | :--- | :--- | :--- |
+| **[FFmpeg](https://github.com/FFmpeg/FFmpeg)** | [<img src="https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=social&color=white" alt="FFmpeg Stars"/>](https://github.com/FFmpeg/FFmpeg/stargazers) | LGPL / GPL | Universal cross-platform solution to record, convert and stream audio/video. |
+| **[GStreamer](https://github.com/GStreamer/gstreamer)** | [<img src="https://img.shields.io/github/stars/GStreamer/gstreamer?style=social&color=white" alt="GStreamer Stars"/>](https://github.com/GStreamer/gstreamer/stargazers) | LGPL | Pipeline-based multimedia framework powering cross-platform audio/video apps. |
+| **[Shaka Player](https://github.com/shaka-project/shaka-player)** | [<img src="https://img.shields.io/github/stars/shaka-project/shaka-player?style=social&color=white" alt="Shaka Player Stars"/>](https://github.com/shaka-project/shaka-player/stargazers) | Apache-2.0 | JavaScript library for adaptive media playback using DASH and HLS. |
+| **[Video.js](https://github.com/videojs/video.js)** | [<img src="https://img.shields.io/github/stars/videojs/video.js?style=social&color=white" alt="Video.js Stars"/>](https://github.com/videojs/video.js/stargazers) | Apache-2.0 | Open-source HTML5 video player framework. |
+| **[hls.js](https://github.com/video-dev/hls.js)** | [<img src="https://img.shields.io/github/stars/video-dev/hls.js?style=social&color=white" alt="hls.js Stars"/>](https://github.com/video-dev/hls.js/stargazers) | Apache-2.0 | JavaScript HLS client library relying on HTML5 video and MediaSource Extensions. |
+
+---
+
+## 💖 Support & Sponsorship
+
+If you found this list helpful for your video infrastructure, streaming architecture, or open-source stack research, please consider supporting the project! 🌟
+
+- ⭐ **Star this repository** to help others discover it.
+- 🔀 **Fork & Share** with fellow video engineers and developers.
+- ☕ **Sponsor the Maintainer**: Support ongoing curation and open-source contributions:
+  
+  <a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge&logo=github" alt="Sponsor on GitHub" /></a>
+
+Thank you for being part of the real-time video streaming community! ❤️
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Real-Time-Video-Streaming&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Real-Time-Video-Streaming&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository.
+2. Add or update entries in `README.md` following the standardized layout.
+3. Verify all URLs, GitHub star counters, and license information.
+4. Submit a Pull Request with a clear description of changes.
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a community-curated showcase and does not constitute commercial endorsement.
+- Real-time video workloads demand high CPU and bandwidth capacity; ensure proper network planning and security hardening before deployment.
+- Check third-party licenses (e.g., AGPL-3.0 vs Apache-2.0 vs MIT) to ensure compliance with your organization's legal policies.
+
+---
+
+<p align="center">
+  <b>Built for video streaming engineers, media developers, and WebRTC architects worldwide. 🎥✨</b>
+</p>
